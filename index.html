@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appdeperritos</title>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Perritos <img src="imagenes/pngwing.com (22).png" alt="" class="logo-perrito"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Mas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="perrito.html">Dibujos con css</a>
+                </li>
+                <li class="nav-item">
+                    <a href="curiosidades.html" class="nav-link">Curiosidades</a>
+                </li>
+                
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <main>
+     <h2>App de Perritos</h2> 
+     <h3>Imágenes de Perros</h3>
+     <!--Todo> agregar enlace a imagines de gatos-->
+     <p>Haz click aqui para ver mas <a href="https://www.elmundodelgato.com/" target="_blank"> imagenes de perros</a></p>
+     <img src="imagenes/doggy-date-night.jpg" alt="un lindo gato naranja recostado sobre su espalda">
+     <hr>
+     <h3>Más sobre perros</h3>
+    <div class="contenedor-listas">
+        <p>Cosas que los Perritos <strong>aman:</strong></p>
+        <ul class="lista-de-gatos">
+            <li>Recibir atención</li>
+            <li>Dormir junto a ti.</li>
+            <li>Sofa y la cama.</li>
+            <li>Juguetes nuevos.</li>
+        </ul>
+        <img src="imagenes/giphy.gif" alt="una deliciosa lasaña" width="300" height="300">
+
+        <p>Cosas que los Perritos <em>odian:</em></p>
+        <ol class="lista-de-gatos">
+            <li>Que no lo dejes atrapar un juguete.</li>
+            <li>Que le acaricies la cara.</li>
+            <li>Que lo obligues a interactuar con perros no amigos.</li>
+            <li>Que estés de mal humor o tenso.</li>
+     </ol>
+    </div>
+     <img src="imagenes/perromanejando.jpg" alt="gatitos mirando al cielo" width="250" height="240" class="border-redonder">
+
+     
+
+     <form action="https://formsubmit.co/marcosmhl843@gmail.com" method="POST">
+        <h3>¿Dónde prefiere estar tu perro?</h3>
+         <label for="Interior"><input id="Interior" type="radio" name="Interior-Exterior" value="Interior">Interior</label><br>
+         <label for="Exterior"><input id="Exterior" type="radio" name="Interior-Exterior" value="Exterior">Exterior</label><br>
+         <h3>¿Qué personalidad tiene tu perro?</h3>
+         <label for="Cariñoso"><input id="carinoso" type="checkbox" name="personalidad" value="carinoso">Cariñoso</label><br>
+         <label for="Perezoso"><input id="perezoso" type="checkbox" name="personalidad" value="perezoso">Perezoso</label><br>
+         <label for="Enérgico"><input id="energico" type="checkbox" name="personalidad" value="energico">Enérgico</label><br>
+         
+
+        <input type="text" placeholder="URL de la foto de tu perro" r equired><br>
+        <button type="submit">Enviar</button>
+     </form>
+
+
+
+    </main>
+    <hr size="5px" color="silver">
+    <footer>
+        <p> <small> Sin derechos de autor-Marcos Manuel Hernández López</a> Alan Hernández</p></small>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{
+   justify-content: center;
+}
+
+
+body{
+    background: linear-gradient(rgb(232, 226, 143), #54ffba);
+}
+
+
+h1{
+    font-family: 'tangerine', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+img{
+    width: 500px;
+    height: auto;
+    border-width: 5px;
+    border-color: #8bd2b6;
+    border-style: solid;
+    border-radius: 10%;
+    box-shadow: 5px 5px 0px #060a0a;
+}
+h2
+{
+    font-family: 'tangerine', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+div{
+    border: 1px dashed #7d713b;
+    padding: 2px;
+    box-sizing: border-box;
+    background: #917d2d;
+}
+
+p{
+
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 20px;
+}
+
+ul{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 20px;
+
+}
